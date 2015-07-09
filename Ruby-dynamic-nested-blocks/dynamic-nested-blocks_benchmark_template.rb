@@ -1,5 +1,4 @@
 require 'benchmark/ips'
-GC.disable
 
 class AroundFilterWrapper
   def monitor
